@@ -1,0 +1,39 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Zoby Aly",
+            "title": "Knowledgeable, Responsive, and Caring",
+            "review": "We’ve been clients of Amyn and Arifa Karim for over 5 years, and they’ve always provided excellent service. They’re very knowledgeable, quick to respond, and genuinely care about helping you choose the best insurance for your needs. Their customer service is always friendly and professional. Highly recommend them to anyone looking for reliable health insurance agents!",
+            "image": "zoby-aly.png"
+        },
+        {
+            "id": 2,
+            "name": "Charmaine Nunes",
+            "title": "Trusted Guidance for Our Whole Family",
+            "review": "I’ve had the pleasure of working with Arifa from iSecure Professional Services LLC for the past three years, and she’s been nothing but amazing. She’s helped my entire family find the best Health Care Insurance policies, offering expert guidance with her years of experience and knowledge. Arifa is easy to talk to, always professional, and dedicated to ensuring we’re well-covered. I highly recommend her to anyone seeking insurance assistance. We truly appreciate all that you do, Arifa!",
+            "image": "user.png"
+        },
+        {
+            "id": 3,
+            "name": "Cristy Hernandez",
+            "title": "They Listen and Find the Best Option",
+            "review": "Arifa Karim and Amyn Karim were extremely helpful! They will listen to all your needs, concerns and always they will find the best option for you. I have been going to them for a few years now! 100% recommend them!",
+            "image": "user.png"
+        },
+        {
+            "id": 4,
+            "name": "Sayed Mashal Sayedy",
+            "title": "Professional, Patient, and Welcoming",
+            "review": "Perfect service, very professional, polite and super friendly, always welcoming their clients with a nice smile, knowledgeable to all questions, listens patiently and trying to find a good health plan for their clients. I do recommend this place to everyone. Thank you so much 🙂",
+            "image": "sayed-mashal.png"
+        },
+        {
+            "id": 5,
+            "name": "Shehzad Inayat Ali",
+            "title": "Above-and-Beyond Service, Year After Year",
+            "review": "Excellent service. They go above and beyond to find the right solution for you and provide great service throughout the year. Been their client for years and never had any issues! Highly recommended.",
+            "image": "shehzad-inayat.png"
+        }
+    ]
+}

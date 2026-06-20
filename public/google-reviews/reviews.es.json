@@ -1,0 +1,39 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Zoby Aly",
+            "title": "Conocedores, atentos y serviciales",
+            "review": "Hemos sido clientes de Amyn y Arifa Karim por más de cinco años, y siempre nos han brindado un servicio excelente. Tienen mucho conocimiento, responden rápidamente y realmente se preocupan por ayudarte a elegir el mejor seguro para tus necesidades. Su atención al cliente siempre es amable y profesional. Los recomiendo ampliamente a cualquiera que busque agentes de seguros médicos confiables.",
+            "image": "zoby-aly.png"
+        },
+        {
+            "id": 2,
+            "name": "Charmaine Nunes",
+            "title": "Orientación confiable para toda nuestra familia",
+            "review": "He tenido el placer de trabajar con Arifa de iSecure Professional Services LLC durante los últimos tres años, y ha sido realmente increíble. Ha ayudado a toda mi familia a encontrar las mejores pólizas de seguro médico, ofreciendo orientación experta gracias a sus años de experiencia y conocimiento. Es fácil hablar con Arifa, siempre es profesional y se dedica a garantizar que tengamos una buena cobertura. La recomiendo ampliamente a cualquiera que necesite ayuda con seguros. Agradecemos sinceramente todo lo que haces, Arifa.",
+            "image": "user.png"
+        },
+        {
+            "id": 3,
+            "name": "Cristy Hernandez",
+            "title": "Escuchan y encuentran la mejor opción",
+            "review": "Arifa Karim y Amyn Karim fueron sumamente serviciales. Escuchan todas tus necesidades e inquietudes y siempre encuentran la mejor opción para ti. He acudido a ellos durante varios años. Los recomiendo al cien por ciento.",
+            "image": "user.png"
+        },
+        {
+            "id": 4,
+            "name": "Sayed Mashal Sayedy",
+            "title": "Profesionales, pacientes y acogedores",
+            "review": "Un servicio perfecto: muy profesionales, educados y sumamente amables. Siempre reciben a sus clientes con una sonrisa, conocen las respuestas a todas las preguntas, escuchan con paciencia y se esfuerzan por encontrar un buen plan de salud para cada cliente. Recomiendo este lugar a todos. Muchas gracias.",
+            "image": "sayed-mashal.png"
+        },
+        {
+            "id": 5,
+            "name": "Shehzad Inayat Ali",
+            "title": "Servicio excepcional, año tras año",
+            "review": "Excelente servicio. Hacen todo lo posible por encontrar la solución adecuada para ti y brindan una gran atención durante todo el año. He sido su cliente por años y nunca he tenido ningún problema. Los recomiendo ampliamente.",
+            "image": "shehzad-inayat.png"
+        }
+    ]
+}

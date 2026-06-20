@@ -38,6 +38,8 @@ const spanish: Record<string, string> = {
   "Personalized support": "Apoyo personalizado",
   "No-cost consultation": "Consulta sin costo",
   "Healthcare that fits you": "Atención médica que se adapta a ti",
+  "Personal guidance for every generation.": "Orientación personal para cada generación.",
+  "A family receiving personalized healthcare guidance from an advisor": "Una familia recibiendo orientación médica personalizada de una asesora",
   "Real people.": "Personas reales.",
   "Clear answers.": "Respuestas claras.",
   "Better options.": "Mejores opciones.",
@@ -101,6 +103,13 @@ const spanish: Record<string, string> = {
   "Connecting you with respected health insurance providers so you can explore coverage with confidence.": "Te conectamos con proveedores de seguros médicos respetados para que explores la cobertura con confianza.",
   "Client experiences": "Experiencias de clientes",
   "Support that people remember": "Apoyo que las personas recuerdan",
+  "Previous reviews": "Reseñas anteriores",
+  "Next reviews": "Reseñas siguientes",
+  "Knowledgeable, Responsive, and Caring": "Conocedores, atentos y serviciales",
+  "Trusted Guidance for Our Whole Family": "Orientación confiable para toda nuestra familia",
+  "They Listen and Find the Best Option": "Escuchan y encuentran la mejor opción",
+  "Professional, Patient, and Welcoming": "Profesionales, pacientes y acogedores",
+  "Above-and-Beyond Service, Year After Year": "Servicio excepcional, año tras año",
   "“The process finally made sense.”": "“El proceso finalmente tuvo sentido.”",
   "iSecure Health explained everything clearly and helped me feel confident about my family’s next step.": "iSecure Health explicó todo claramente y me ayudó a sentir confianza sobre el próximo paso de mi familia.",
   "“Patient, helpful, and easy to reach.”": "“Paciente, servicial y fácil de contactar.”",
@@ -273,7 +282,7 @@ function translateElement(root: ParentNode, language: Language) {
 
   while (node) {
     const parent = node.parentElement;
-    if (parent && !["SCRIPT", "STYLE"].includes(parent.tagName)) {
+    if (parent && !["SCRIPT", "STYLE"].includes(parent.tagName) && !parent.closest("[data-language-content]")) {
       if (!originalText.has(node)) originalText.set(node, node.textContent ?? "");
       const original = originalText.get(node) ?? "";
       const translated = spanish[original.trim()];
@@ -283,6 +292,7 @@ function translateElement(root: ParentNode, language: Language) {
   }
 
   root.querySelectorAll?.("[placeholder], [aria-label], [title]").forEach(element => {
+    if (element.closest("[data-language-content]")) return;
     if (!originalAttributes.has(element)) {
       const values: Record<string, string> = {};
       ["placeholder", "aria-label", "title"].forEach(attribute => {
