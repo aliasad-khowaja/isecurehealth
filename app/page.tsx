@@ -8,12 +8,12 @@ import reviewsData from "@/public/google-reviews/reviews.json";
 import spanishReviewsData from "@/public/google-reviews/reviews.es.json";
 
 const coverageOptions = [
-  { image: "/coverage/medicare-medicaid.png", title: "Medicare & Medicaid Options", text: "Understand available coverage and find support that fits your healthcare needs and budget." },
-  { image: "/coverage/health-insurance.png", title: "Health Insurance Options", text: "Explore personalized health insurance solutions for individuals and families." },
-  { image: "/coverage/life-insurance.png", title: "Life Insurance Options", text: "Help protect the people you love with coverage shaped around your family’s future." },
-  { image: "/coverage/employer-group.png", title: "Employer & Group Insurance", text: "Practical coverage guidance for businesses, teams, and growing organizations." },
-  { image: "/coverage/travel-short-term.png", title: "Travel & Short-Term Insurance", text: "Flexible protection for travel, temporary needs, and periods of transition." },
-  { image: "/coverage/dental-vision.png", title: "Dental & Vision Insurance", text: "Round out your healthcare coverage with options for routine dental and vision care." },
+  { image: "/coverage/medicare-medicaid-photo.png", title: "Medicare & Medicaid Options", text: "Understand available coverage and find support that fits your healthcare needs and budget." },
+  { image: "/coverage/health-insurance-photo.png", title: "Health Insurance Options", text: "Explore personalized health insurance solutions for individuals and families." },
+  { image: "/coverage/life-insurance-photo.png", title: "Life Insurance Options", text: "Help protect the people you love with coverage shaped around your family’s future." },
+  { image: "/coverage/employer-group-photo.png", title: "Employer & Group Insurance", text: "Practical coverage guidance for businesses, teams, and growing organizations." },
+  { image: "/coverage/travel-short-term-photo.png", title: "Travel & Short-Term Insurance", text: "Flexible protection for travel, temporary needs, and periods of transition." },
+  { image: "/coverage/dental-vision-photo.png", title: "Dental & Vision Insurance", text: "Round out your healthcare coverage with options for routine dental and vision care." },
 ];
 
 const providers = [
@@ -39,11 +39,11 @@ export default function Home() {
           <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">Affordable healthcare starts with a conversation.</h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white">iSecure Health helps individuals and families understand their options and find healthcare solutions that fit their lives, needs, and budgets.</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-bold text-navy shadow-lg transition hover:-translate-y-0.5 hover:bg-teal hover:text-white focus:outline-none focus:ring-4 focus:ring-white/20">Get Free Consultation <ArrowRight size={16} /></Link>
+            <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-red px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-black/15 transition hover:-translate-y-0.5 hover:bg-[#c91526] focus:outline-none focus:ring-4 focus:ring-red/30">Get Free Consultation <ArrowRight size={16} /></Link>
             <Link href="/services" className="inline-flex items-center justify-center rounded-full border border-white/35 bg-white/5 px-6 py-3.5 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:border-teal hover:bg-teal/10 focus:outline-none focus:ring-4 focus:ring-white/15">View Services</Link>
           </div>
           <div className="mt-9 flex flex-wrap gap-x-7 gap-y-3 text-sm font-semibold text-white">
-            <span className="flex items-center gap-2"><ShieldCheck className="text-teal" size={18} /> Personalized support</span>
+            <span className="flex items-center gap-2"><ShieldCheck className="text-red" size={18} /> Personalized support</span>
             <span className="flex items-center gap-2"><BadgeDollarSign className="text-teal" size={18} /> No-cost consultation</span>
           </div>
         </div>
@@ -74,9 +74,9 @@ export default function Home() {
         </div>
         <div className="mx-auto mt-12 grid max-w-6xl gap-7 md:grid-cols-2">
           {coverageOptions.map(({ image, title, text }) => (
-            <article key={title} className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:border-teal/40 hover:shadow-soft sm:p-6">
+            <article key={title} className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white p-5 text-center shadow-sm transition hover:-translate-y-1 hover:border-red/40 hover:shadow-soft sm:p-6">
               <div className="overflow-hidden rounded-2xl bg-white">
-                <Image src={image} alt={`${title} professional illustration`} width={1456} height={1120} className="aspect-[4/3] h-auto w-full object-cover transition duration-500 group-hover:scale-[1.025]" />
+                <Image src={image} alt={`${title} consultation and coverage support`} width={1448} height={1086} className="aspect-[4/3] h-auto w-full object-cover transition duration-500 group-hover:scale-[1.025]" />
               </div>
               <h3 className="mt-6 text-2xl font-bold leading-snug text-navy">{title}</h3>
               <p className="mx-auto mt-3 max-w-lg flex-1 leading-7 text-slate-600">{text}</p>
@@ -99,7 +99,7 @@ export default function Home() {
     <section className="section-pad overflow-hidden bg-navy">
       <div className="container-site">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-teal">Our achievements</p>
+          <p className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-red">Our achievements</p>
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">Recognition earned through service and dedication</h2>
           <p className="mt-5 text-lg font-medium leading-8 text-white">We’re proud to be recognized by trusted healthcare and insurance partners for our commitment to the people we serve.</p>
         </div>

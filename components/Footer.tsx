@@ -24,16 +24,16 @@ export function Footer() {
         <div>
           <h2 className="font-bold">Get In Touch</h2>
           <div className="mt-5 grid gap-4 text-sm text-blue-100">
-            <a href="https://maps.google.com/?q=6464+Savoy+Dr+Ste+668+Houston+TX+77036" target="_blank" rel="noreferrer" className="flex gap-3 hover:text-white"><MapPin className="mt-0.5 shrink-0 text-teal" size={17} /> 6464 Savoy Dr Ste 668<br />Houston, TX 77036</a>
-            <a href="tel:+13467793786" className="flex gap-3 hover:text-white"><Phone className="shrink-0 text-teal" size={17} /> (346) 779-3786</a>
-            <a href="mailto:hello@isecurehealth.com" className="flex gap-3 hover:text-white"><Mail className="shrink-0 text-teal" size={17} /> hello@isecurehealth.com</a>
-            <p className="flex gap-3"><Clock3 className="mt-0.5 shrink-0 text-teal" size={17} /> Mon–Fri: 9 AM–6 PM<br />Sat–Sun: Closed</p>
+            <a href="https://maps.google.com/?q=6464+Savoy+Dr+Ste+668+Houston+TX+77036" target="_blank" rel="noreferrer" className="flex gap-3 hover:text-white"><MapPin className="mt-0.5 shrink-0 text-red" size={17} /> 6464 Savoy Dr Ste 668<br />Houston, TX 77036</a>
+            <a href="tel:+13467793786" className="flex gap-3 hover:text-white"><Phone className="shrink-0 text-red" size={17} /> (346) 779-3786</a>
+            <a href="mailto:hello@isecurehealth.com" className="flex gap-3 hover:text-white"><Mail className="shrink-0 text-red" size={17} /> hello@isecurehealth.com</a>
+            <p className="flex gap-3"><Clock3 className="mt-0.5 shrink-0 text-red" size={17} /> Mon–Fri: 9 AM–6 PM<br />Sat–Sun: Closed</p>
           </div>
         </div>
         <div>
           <h2 className="font-bold">Start With Confidence</h2>
           <p className="mt-5 text-sm leading-7 text-blue-100">Get clear, personalized support at no cost to you.</p>
-          <Link href="/contact" className="mt-5 inline-flex rounded-full bg-white px-5 py-3 text-sm font-bold text-navy transition hover:bg-teal hover:text-white">Request a Consultation</Link>
+          <Link href="/contact" className="mt-5 inline-flex rounded-full bg-red px-5 py-3 text-sm font-bold text-white transition hover:bg-[#c91526]">Request a Consultation</Link>
         </div>
       </div>
       <div className="border-t border-white/10">

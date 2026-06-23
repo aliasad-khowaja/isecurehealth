@@ -33,7 +33,7 @@ export function Header() {
         </Link>
         <nav aria-label="Main navigation" className="hidden items-center gap-7 lg:flex">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className={`text-sm font-semibold transition hover:text-teal ${pathname === link.href ? "text-teal" : "text-slate-700"}`}>
+            <Link key={link.href} href={link.href} className={`text-sm font-semibold transition hover:text-red ${pathname === link.href ? "text-red" : "text-slate-700"}`}>
               {link.label}
             </Link>
           ))}

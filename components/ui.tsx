@@ -36,12 +36,12 @@ export function CTASection() {
   return <section className="section-pad">
     <div className="container-site">
       <div className="relative overflow-hidden rounded-[2rem] bg-navy px-6 py-14 text-center text-white shadow-soft sm:px-12">
-        <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-teal/25 blur-3xl" />
+        <div className="absolute -left-20 -top-20 h-60 w-60 rounded-full bg-red/20 blur-3xl" />
         <div className="relative mx-auto max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-[0.16em] text-teal">Your healthier future starts here</p>
+          <p className="text-sm font-bold uppercase tracking-[0.16em] text-red">Your healthier future starts here</p>
           <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">Healthcare decisions feel easier with the right guide.</h2>
           <p className="mx-auto mt-5 max-w-2xl leading-7 text-blue-100">Tell us what matters to you. We’ll help you understand your options and move forward with confidence.</p>
-          <Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold text-navy transition hover:bg-teal hover:text-white">Get Free Consultation <ArrowRight size={16} /></Link>
+          <Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-red px-7 py-3.5 text-sm font-bold text-white transition hover:bg-[#c91526]">Get Free Consultation <ArrowRight size={16} /></Link>
         </div>
       </div>
     </div>

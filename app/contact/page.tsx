@@ -1,6 +1,5 @@
 import { Clock3, Mail, MapPin, Phone } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
-import { PageHero } from "@/components/ui";
 
 export const metadata = { title: "Contact", description: "Contact iSecure Health for a free personalized healthcare consultation in the Houston area." };
 
@@ -16,7 +15,6 @@ export default function Contact() {
   ];
 
   return <>
-    <PageHero eyebrow="Get in touch" title="Let’s talk about what you need." text="A clearer path to affordable healthcare starts with a simple conversation. Tell us how we can help, and a member of our team will be in touch." />
     <section className="section-pad bg-cloud">
       <div className="container-site grid gap-10 lg:grid-cols-[.72fr_1.28fr]">
         <div>
